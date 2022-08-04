@@ -33,10 +33,9 @@ export const Navigation = () => {
           <Route path="/about">
           </Route>
           <Route path="/users">
-            <h1>Users</h1>
+            <h1 >Users</h1>
           </Route>
-          <Route path="/">
-            
+          <Route path="/">       
             <ShoppingPage/>
           </Route>
         </Switch>
